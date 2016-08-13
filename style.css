@@ -1,6 +1,4 @@
 
-
-
 #quote {
   background-color: lightblue;
   width: 80%;
@@ -29,4 +27,10 @@ h2 {
 
 button {
   background-color: #8e8eea;
+}
+
+@media (min-width: 700px) {
+  #quote {
+    width: 40%;
+  }
 }
